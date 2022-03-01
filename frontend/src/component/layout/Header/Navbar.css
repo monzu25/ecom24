@@ -1,0 +1,38 @@
+
+ .navbar_container{
+    width: 100%;
+    position:sticky;
+ 
+    flex: 1;
+    align-items: center;
+ }  
+ .navbar_content_section{
+     margin: 0 4%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    height: 10vh;
+ }
+ .navbar_logo{
+
+ }
+ .navbar_shop_menu{
+   display: flex;
+   justify-content: center;
+   column-gap:20px;
+ }
+ .navbar_shop_menu .menu_name{
+     text-decoration: none;
+ }
+ .navbar_user_manu .menu_name{
+     text-decoration: none;
+ }
+ .navbar_user_menu_admin{
+     display: flex;
+    justify-content: center;
+    column-gap:20px;
+ }
+ 
+ .navbar_user_menu_admin .menu_name{
+  text-decoration: none;
+ }
